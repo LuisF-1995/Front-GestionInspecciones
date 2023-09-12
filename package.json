@@ -9,14 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.8",
+    "@mui/material": "^5.14.8",
+    "@mui/styled-engine-sc": "^5.14.8",
+    "@mui/x-date-pickers": "^6.13.0",
     "@types/node": "20.6.0",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
+    "axios": "^1.5.0",
+    "dayjs": "^1.11.9",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "sass": "^1.66.1",
+    "styled-components": "^5.3.11",
     "typescript": "5.2.2"
   }
 }
