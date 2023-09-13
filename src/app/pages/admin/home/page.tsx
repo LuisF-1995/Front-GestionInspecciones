@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { API_GESTION_INSPECCIONES_URL } from '@/constants/GlobalConstants';
 import { sendGetRequest } from '@/services/GestionInspeccionesApiData';
 
-const Admin = () => {
+const AdminHome = () => {
     const ADMIN_URL = `${API_GESTION_INSPECCIONES_URL}/admin`;
     const [statusOptions, setStatusOptions] = useState([]);
 
@@ -33,4 +33,4 @@ const Admin = () => {
     )
 }
 
-export default Admin
+export default AdminHome

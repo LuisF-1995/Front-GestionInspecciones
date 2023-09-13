@@ -9,7 +9,7 @@ import ChecklistRtlOutlinedIcon from '@mui/icons-material/ChecklistRtlOutlined';
 import { Container, Typography, TextField, Button, Autocomplete, Box } from '@mui/material';
 
 
-const Solicitud = () => {
+const SolicitudRegistroAdmin = () => {
   const ADMIN_URL = `${API_GESTION_INSPECCIONES_URL}/admin`;
   const [adminData, setAdminData] = useState({
     numeroDocumento: "",
@@ -143,4 +143,4 @@ const Solicitud = () => {
   );
 }
 
-export default Solicitud
+export default SolicitudRegistroAdmin
