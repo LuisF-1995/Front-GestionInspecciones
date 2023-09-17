@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { API_GESTION_INSPECCIONES_URL } from '@/constants/GlobalConstants';
 import { sendGetRequest } from '@/services/GestionInspeccionesApiData';
 
-const AdminHome = () => {
+const AdminLogin = () => {
     const ADMIN_URL = `${API_GESTION_INSPECCIONES_URL}/admin`;
     const [statusOptions, setStatusOptions] = useState([]);
 
@@ -23,14 +23,10 @@ const AdminHome = () => {
     }
     
     return (
-        <section>
-            <select name="statusSelector" id="statusSelectorId">
-                {statusOptions.map((status, index) => (
-                    <option key={index} value={status}>{status}</option>
-                ))}
-            </select>
-        </section>
+        <main>
+            <h1>Admin login</h1>
+        </main>
     )
 }
 
-export default AdminHome
+export default AdminLogin
