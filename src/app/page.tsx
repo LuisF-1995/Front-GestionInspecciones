@@ -9,16 +9,16 @@ export default function Home() {
       <nav>
         <ul>
           <li>
-            <Link href={`./pages/company/admin`}>Admin</Link>
+            <Link href={`./company/admin`}>Admin</Link>
           </li>
           <li>
-            <Link href="./pages/company">Empresa</Link>
+            <Link href="./company">Empresa</Link>
           </li>
           <li>
-            <Link href="./pages/cliente">Clientes</Link>
+            <Link href="./cliente">Clientes</Link>
           </li>
           <li>
-            <Link href="./pages/constructor">Constructores</Link>
+            <Link href="./constructor">Constructores</Link>
           </li>
         </ul>
       </nav>

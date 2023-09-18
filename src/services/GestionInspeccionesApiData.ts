@@ -21,6 +21,7 @@ export async function sendGetRequest (endpoint:string, token?:string):Promise<an
         return response.data;
     } 
     catch (error) {
+        return error;
         throw new Error('No se pudo obtener la información de la API');
     }
 }
@@ -32,14 +33,12 @@ export async function sendPostRequest (endpoint:string, bodyData:any, token?:str
         if (token && token.length > 0) {
             headers = {
                 'Content-Type': 'application/json',
-                'Origin': 'http://localhost:3000',
                 'Authorization': `Bearer ${token}`
             }
         }
         else{
             headers = {
                 'Content-Type': 'application/json',
-                'Origin': 'http://localhost:3000',
             }
         }
 
@@ -47,6 +46,7 @@ export async function sendPostRequest (endpoint:string, bodyData:any, token?:str
         return response.data;
     } 
     catch (error) {
+        return error;
         console.error('Error al enviar la solicitud POST:', error);
         throw error;
     }
@@ -72,9 +72,9 @@ export async function sendPutRequest (endpoint:string, dataUpdate:any, token?:st
     axios
     .put(endpoint, dataUpdate, headers)
     .then((response) => {
-        console.log('Respuesta de la API:', response.data);
+        return response.data;
     })
     .catch((error) => {
-        console.error('Error al enviar datos:', error);
+        return error;
     });
 }
