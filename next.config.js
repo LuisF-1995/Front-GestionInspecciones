@@ -1,6 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    basePath: '/Front-GestionInspecciones',
-}
+const nextConfig = {}
 
 module.exports = nextConfig
