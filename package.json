@@ -2,7 +2,7 @@
   "name": "gestion-inspecciones",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://luisf-1995.github.io/Front-GestionInspecciones/",
+  "homepage": "https://luisf-1995.github.io/Front-GestionInspecciones/.next",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

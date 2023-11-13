@@ -19,7 +19,7 @@ module.exports = require("os");
 
 /***/ }),
 
-/***/ 75247:
+/***/ 89911:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -70,7 +70,7 @@ function GET() {
 
 const dynamic = 'force-static'
 
-;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Ffavicon.ico%2Froute&name=app%2Ffavicon.ico%2Froute&pagePath=private-next-app-dir%2Ffavicon.ico&appDir=D%3A%5CGestionInspecciones%5CFrontend%20Web%5Cgestion-inspecciones%5Csrc%5Capp&appPaths=%2Ffavicon.ico&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=%2FFront-GestionInspecciones%2F.next&assetPrefix=%2FFront-GestionInspecciones%2F.next&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!
+;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Ffavicon.ico%2Froute&name=app%2Ffavicon.ico%2Froute&pagePath=private-next-app-dir%2Ffavicon.ico&appDir=D%3A%5CGestionInspecciones%5CFrontend%20Web%5Cgestion-inspecciones%5Csrc%5Capp&appPaths=%2Ffavicon.ico&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!
 
 // @ts-ignore this need to be imported from next/dist to be external
 
@@ -111,7 +111,7 @@ const originalPathname = "/favicon.ico/route";
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,218], () => (__webpack_exec__(75247)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,218], () => (__webpack_exec__(89911)));
 module.exports = __webpack_exports__;
 
 })();

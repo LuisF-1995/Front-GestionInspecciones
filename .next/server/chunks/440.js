@@ -50,7 +50,7 @@ Object.defineProperty(exports, "getDomainLocale", ({
     }
 }));
 const _normalizetrailingslash = __webpack_require__(61094);
-const basePath = (/* unused pure expression or super */ null && ("/Front-GestionInspecciones/.next" || 0));
+const basePath = (/* unused pure expression or super */ null && ( false || ""));
 function getDomainLocale(path, locale, locales, domainLocales) {
     if (false) {} else {
         return false;

@@ -1,6 +1,6 @@
 {
-  "/favicon.ico/route": "/favicon.ico",
   "/page": "/",
+  "/favicon.ico/route": "/favicon.ico",
   "/cliente/page": "/cliente",
   "/company/page": "/company",
   "/constructor/page": "/constructor",
@@ -9,8 +9,8 @@
   "/company/admin/page": "/company/admin",
   "/company/asesor-comercial/page": "/company/asesor-comercial",
   "/company/director-regional/page": "/company/director-regional",
-  "/company/forgot-password/page": "/company/forgot-password",
   "/company/director-tecnico/page": "/company/director-tecnico",
+  "/company/forgot-password/page": "/company/forgot-password",
   "/company/inspector/page": "/company/inspector",
   "/company/programador-agenda/page": "/company/programador-agenda",
   "/constructor/register/page": "/constructor/register",

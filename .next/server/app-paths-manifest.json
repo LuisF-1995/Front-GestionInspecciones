@@ -1,6 +1,6 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/cliente/page": "app/cliente/page.js",
   "/company/page": "app/company/page.js",
   "/constructor/page": "app/constructor/page.js",
@@ -9,8 +9,8 @@
   "/company/admin/page": "app/company/admin/page.js",
   "/company/asesor-comercial/page": "app/company/asesor-comercial/page.js",
   "/company/director-regional/page": "app/company/director-regional/page.js",
-  "/company/forgot-password/page": "app/company/forgot-password/page.js",
   "/company/director-tecnico/page": "app/company/director-tecnico/page.js",
+  "/company/forgot-password/page": "app/company/forgot-password/page.js",
   "/company/inspector/page": "app/company/inspector/page.js",
   "/company/programador-agenda/page": "app/company/programador-agenda/page.js",
   "/constructor/register/page": "app/constructor/register/page.js",
