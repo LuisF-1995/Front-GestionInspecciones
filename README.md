@@ -2,6 +2,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+Node version: 18.17.1
+NPM version: 10.1.0
+
 First, run the development server:
 
 ```bash
