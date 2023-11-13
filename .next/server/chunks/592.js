@@ -1,5 +1,5 @@
-exports.id = 537;
-exports.ids = [537];
+exports.id = 592;
+exports.ids = [592];
 exports.modules = {
 
 /***/ 83732:
@@ -69,7 +69,7 @@ function RootLayout({ children }) {
 
 /***/ }),
 
-/***/ 73881:
+/***/ 46454:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -83,7 +83,7 @@ __webpack_require__.r(__webpack_exports__);
 
   /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((props) => {
     const imageData = {"type":"image/x-icon","sizes":"512x512"}
-    const imageUrl = (0,next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__.fillMetadataSegment)(".", props.params, "favicon.ico")
+    const imageUrl = (0,next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__.fillMetadataSegment)("/.next", props.params, "favicon.ico")
 
     return [{
       ...imageData,
