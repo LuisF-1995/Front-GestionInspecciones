@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "",
+    basePath: "gestion-inspecciones.vercel.app",
 }
 
 module.exports = nextConfig
