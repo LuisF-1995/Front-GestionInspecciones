@@ -1,13 +1,13 @@
-exports.id = 537;
-exports.ids = [537];
+exports.id = 998;
+exports.ids = [998];
 exports.modules = {
 
-/***/ 83732:
+/***/ 88304:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 31232, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 52987, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50831, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 52987, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 56926, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 44282, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 16505, 23))
@@ -69,7 +69,7 @@ function RootLayout({ children }) {
 
 /***/ }),
 
-/***/ 73881:
+/***/ 78802:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -83,7 +83,7 @@ __webpack_require__.r(__webpack_exports__);
 
   /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((props) => {
     const imageData = {"type":"image/x-icon","sizes":"512x512"}
-    const imageUrl = (0,next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__.fillMetadataSegment)(".", props.params, "favicon.ico")
+    const imageUrl = (0,next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__.fillMetadataSegment)("/Front-GestionInspecciones/.next", props.params, "favicon.ico")
 
     return [{
       ...imageData,

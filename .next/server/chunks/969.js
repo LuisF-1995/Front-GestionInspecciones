@@ -7,8 +7,8 @@ exports.modules = {
 
 // Exports
 module.exports = {
-	"style": {"fontFamily":"'__Inter_e66fe9', '__Inter_Fallback_e66fe9'","fontStyle":"normal"},
-	"className": "__className_e66fe9"
+	"style": {"fontFamily":"'__Inter_1b2139', '__Inter_Fallback_1b2139'","fontStyle":"normal"},
+	"className": "__className_1b2139"
 };
 
 
@@ -30,7 +30,7 @@ Object.defineProperty(exports, "addBasePath", ({
 }));
 const _addpathprefix = __webpack_require__(30893);
 const _normalizetrailingslash = __webpack_require__(61094);
-const basePath =  false || "";
+const basePath = "/Front-GestionInspecciones/.next" || 0;
 function addBasePath(path, required) {
     return (0, _normalizetrailingslash.normalizePathTrailingSlash)( false ? 0 : (0, _addpathprefix.addPathPrefix)(path, basePath));
 }
@@ -4621,7 +4621,7 @@ Object.defineProperty(exports, "hasBasePath", ({
     }
 }));
 const _pathhasprefix = __webpack_require__(54614);
-const basePath =  false || "";
+const basePath = "/Front-GestionInspecciones/.next" || 0;
 function hasBasePath(path) {
     return (0, _pathhasprefix.pathHasPrefix)(path, basePath);
 }
@@ -4686,7 +4686,7 @@ Object.defineProperty(exports, "removeBasePath", ({
     }
 }));
 const _hasbasepath = __webpack_require__(94374);
-const basePath =  false || "";
+const basePath = "/Front-GestionInspecciones/.next" || 0;
 function removeBasePath(path) {
     if (false) {}
     // Can't trim the basePath if it has zero length!
