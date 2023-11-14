@@ -1,0 +1,63 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(156, 155, 161);
+    height: 100vh;
+  
+    h2 {
+      font-size: 2rem;
+      color: gray;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    .formContainer {
+      display: flex;
+      flex-direction: column;
+      min-width: 200px;
+      max-width: 60vw;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 5px 25px 2px rgba(40, 43, 56, 0.7);
+      gap: 25px;
+      overflow: hidden;
+
+      .buttonsContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 5px 5px;
+
+        .options{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0px 0px 10px 0px;
+
+            #forgotPassword{
+                text-decoration: underline;
+                font-style: italic;
+                color: darkgray;
+                font-weight: 500;
+            }
+        }
+      }
+  
+      .MuiTextField-root {
+        margin-bottom: 20px;
+      }
+  
+      .MuiButton-root {
+        background-color: #3f51b5;
+        color: #fff;
+        margin-top: 20px;
+        &:hover {
+          background-color: #2f3d70;
+        }
+      }
+    }
+  }
